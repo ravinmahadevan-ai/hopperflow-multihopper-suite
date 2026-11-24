@@ -1,0 +1,39 @@
+{
+  "name": "hopperflow-multihopper-suite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "HopperFlow: Institutional Routed Treasury, Multi-Send Payroll & Agentic Commerce Suite for Solana built on MultiHopper API v1",
+  "scripts": {
+    "dev:client": "vite --port 5173",
+    "dev:server": "tsx src/server/index.ts",
+    "build": "vite build",
+    "test": "vitest run",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "bs58": "^6.0.0",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9",
+    "vitest": "^2.1.3"
+  }
+}
